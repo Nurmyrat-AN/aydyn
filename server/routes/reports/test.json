@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "H-1 (Base: 50, Diller: 40)",
+        "barcode": "1",
+        "price": 50,
+        "measure": "m",
+        "countOfSides": 1,
+        "createdAt": "2025-08-02T23:38:16.942Z",
+        "updatedAt": "2025-08-02T23:38:16.942Z",
+        "quantity": 12,
+        "totalByUnit": 480,
+        "totalWithExtraProducts": 480,
+        "extraProducts": []
+    },
+    {
+        "id": 2,
+        "name": "H-2 (Base: 60, Adaty: 70)",
+        "barcode": "2",
+        "price": 60,
+        "measure": "mkw",
+        "countOfSides": 2,
+        "createdAt": "2025-08-02T23:38:16.942Z",
+        "updatedAt": "2025-08-02T23:38:16.942Z",
+        "quantity": 3,
+        "totalByUnit": 180,
+        "totalWithExtraProducts": 180,
+        "extraProducts": [
+            {
+                "id": 1,
+                "name": "Secek (Base: 10, Diller: 15, Adaty: 20)",
+                "price": 10,
+                "measure": "m",
+                "calculationType": "a",
+                "createdAt": "2025-08-02T23:38:16.895Z",
+                "updatedAt": "2025-08-02T23:38:16.895Z",
+                "quantity": null,
+                "total": null,
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "H-3 (Base: 80, DIller: 90, Adaty: 100)",
+        "barcode": "3",
+        "price": 80,
+        "measure": "mkb",
+        "countOfSides": 3,
+        "createdAt": "2025-08-02T23:38:16.942Z",
+        "updatedAt": "2025-08-02T23:38:16.942Z",
+        "quantity": 14,
+        "totalByUnit": 1340,
+        "totalWithExtraProducts": 1356,
+        "extraProducts": [
+            {
+                "id": 2,
+                "name": "Selpe (Base: 16, Diller: 30)",
+                "price": 16,
+                "measure": "m",
+                "calculationType": "a",
+                "createdAt": "2025-08-02T23:38:16.895Z",
+                "updatedAt": "2025-08-02T23:38:16.895Z",
+                "quantity": 1,
+                "total": 16
+            }
+        ]
+    }
+]

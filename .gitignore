@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# React build output
+client/build/
+
+# Electron build output
+dist/
+out/
+.electron-builder/
+build/
+!build/electron # Keep this if electron-builder creates a 'build' folder and you only want to ignore specific subfolders
+
+# SQLite database files
+# Assuming your database file is named database.sqlite
+# and it might be in ./database/ or directly in the user data path
+database/
+*.sqlite
+*.sqlite3
+*.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# npm package manager cache
+.npm/
+
+# Yarn cache
+.yarn/cache
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+.nyc_output/
+.grunt/
+.sass-cache/
+.eslintcache
+.next/ # If you were using Next.js (though your current setup is React + Node.js)
