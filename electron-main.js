@@ -36,6 +36,10 @@ function createWindow() {
 
   backendProcess.on('exit', (code) => {
     console.log(`Backend process exited with code ${code}`);
+    if (code !== 0) {
+      // Если бэкенд завершился с ошибкой, можно показать сообщение пользователю
+      mainWindow.webContents.send('backend-error', `Backend crashed with code: ${code}`);
+    }
     // Optionally, handle backend crashes here (e.g., restart backend or show error)
   });
 
