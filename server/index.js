@@ -57,6 +57,7 @@ const initDb = async () => {
 
 const startServer = async () => {
     await sequelize.authenticate()
+    await sequelize.sync({})
     // await initDb()
 
 

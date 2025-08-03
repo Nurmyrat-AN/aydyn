@@ -42,9 +42,7 @@ function createWindow() {
   // Load the React app's index.html
   // In a production build, 'build' folder will be relative to electron-main.js
   // In development, React dev server will be running on localhost:3000
-  const startUrl = process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000' // React development server
-    : `file://${path.join(__dirname, 'client', 'dist', 'index.html')}`; // React production build
+  const startUrl = 'http://localhost:5000'; // React production build
 
   mainWindow.loadURL(startUrl);
 

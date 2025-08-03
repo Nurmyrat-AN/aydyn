@@ -5,9 +5,9 @@
   "main": "electron-main.js",
   "scripts": {
     "start": "electron .",
-    "react-start": "cd frontend && npm start",
-    "react-build": "cd frontend && npm run build",
-    "electron-build": "npm run react-build && electron-builder",
+    "react-start": "cd client && npm start",
+    "react-build": "cd client && npm run build",
+    "electron-build": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
   "keywords": [],
@@ -23,8 +23,7 @@
     "files": [
       "electron-main.js",
       "package.json",
-      "server/**/*",
-      "client/build/**/*"
+      "server/**/*"
     ],
     "directories": {
       "buildResources": "resources",
